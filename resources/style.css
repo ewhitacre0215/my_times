@@ -1,3 +1,4 @@
+/* Header Section Start */
 header {
   display: flex;
   align-items: center;
@@ -14,6 +15,7 @@ header {
 
 .logo span {
   color: MediumAquamarine;
+  flex-grow: 1;
 }
 
 nav span {
@@ -25,3 +27,4 @@ nav span {
 a {
   color: black;
 }
+/* Header Section End */
