@@ -42,10 +42,18 @@ a {
 /* Content Section Start */
 .content {
   display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  border: 2px solid black;
 }
 .column.large {
   display: flex;
   width: 630px;
+  border: 1px solid black;
+}
+
+.lead-story {
   border: 1px solid black;
 }
 
