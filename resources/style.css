@@ -60,6 +60,7 @@ a {
 
 .stories {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 17px;
 }
@@ -68,6 +69,7 @@ a {
   display: flex;
   flex-direction: column;
   /*width: 300px;*/
+  border: 1px solid black;
 }
 
 h2 {
@@ -105,7 +107,6 @@ p {
 .image-content {
   border: 1px solid black;
   margin-top: 15px;
-  /*
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,7 +116,14 @@ p {
   font-size: 30px;
   color: white;
   text-align: center;
-  */
+}
+
+.lead-story .image-content {
+  background-image: url("./images/img-story-main.png");
+  margin-top: 0;
+  width: 630px;
+  text-align: left;
+  font-size: 40px;
 }
 
 .column.large {
@@ -128,10 +136,22 @@ p {
   margin-left: 20px;
 }
 
+.fall-canceled .image-content {
+  background-image: url("./images/img-story-fall.png");
+}
+
+.pop-culture .image-content {
+  background-image: url("./images/img-story-camera.png");
+}
+
 .column.medium {
   display: flex;
   width: 300px;
   border: 1px solid black;
+}
+
+.cat-ceo .image-content {
+  background-image: url("./images/img-story-cat.png");
 }
 
 .column.small {
